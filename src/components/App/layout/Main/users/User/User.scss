@@ -1,0 +1,20 @@
+@import '../../../../../../styles/varibles.scss';
+
+td{
+    font-size: 12px;
+    color: $color-text-form ;
+}
+
+.pen{
+    color: blue;
+    width: 10px;
+    margin: 2px 3px;
+    cursor: pointer;
+}
+
+.trash{
+    width: 10px;
+    color: $color-text-form ;
+    margin: 2px 3px;
+    cursor: pointer;
+}

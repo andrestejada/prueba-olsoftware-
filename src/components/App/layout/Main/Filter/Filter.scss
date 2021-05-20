@@ -1,0 +1,59 @@
+@import '../../../../../styles/varibles.scss';
+
+label{
+    font-size: 12px;
+}
+
+.filter-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: nowrap column;
+    width: 30%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 2px 5px rgb(187, 186, 186);
+    margin: 0 auto;
+    height: 550px;
+
+    div{
+        display: flex;
+        flex-flow: column;
+        width: 80%;
+        margin: 0 auto;
+
+        .button-box{
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-flow: row nowrap;
+            margin: 0.5em auto;
+        }
+        .filter-title{
+            display: flex;
+            flex-flow: row;
+            justify-content: center;
+            align-items: center;
+
+            h2{
+                margin: 0 auto;
+                font-weight: 600;
+            }
+        }
+
+        form{
+            width: 100%;
+        }
+
+    }
+}
+
+
+
+.filter-title{
+    color: $color-text;
+    justify-content: center;
+    align-items: center;
+}
+

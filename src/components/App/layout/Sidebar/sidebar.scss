@@ -1,0 +1,28 @@
+aside{
+    width: 300px;
+    height: 100vh;
+    background: linear-gradient(0deg, rgb(2, 79, 221) 0%, rgb(60, 108, 197) 46%, rgb(110, 175, 248) 100%);
+    padding: 1em 0.5em;
+    color: white;
+
+    h2{
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+.toggleCollapse{
+    width: 60px;
+
+    h2{
+        display: none;
+    }
+}
+
+
+.main-logo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+}
